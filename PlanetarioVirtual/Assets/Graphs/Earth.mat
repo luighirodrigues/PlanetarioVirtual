@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Earth
+  m_Shader: {fileID: -6465566751694194690, guid: 9cc60ef41ac6d28449076333660b0b97,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_4A6FF8F0:
+        m_Texture: {fileID: 2800000, guid: 36e29612c6bbc554c8ee50ae6331edd9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9D3C3217:
+        m_Texture: {fileID: 2800000, guid: 2bb778b0c0d33da45aca14005611219c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_A537F743:
+        m_Texture: {fileID: 2800000, guid: 1361e71f79116f545bfba1d26948f80a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_AC8396E0:
+        m_Texture: {fileID: 2800000, guid: 8fede50c727e162458b76b70f1b45fdd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C95603CA:
+        m_Texture: {fileID: 2800000, guid: e19ed44fb917cef47b601dcd0b295496, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_46890901: 0.281
+    - Vector1_49163CF: 8.73
+    - Vector1_7447ADA9: 5.36
+    - Vector1_828735E1: 0
+    - Vector1_959F0035: 0.31
+    - Vector1_CD064FD2: 3.35
+    - Vector1_D6771E56: 0.588
+    - Vector1_F48BF10D: 10
+    m_Colors:
+    - Color_A64ED80D: {r: 0.00303527, g: 0.015686275, b: 0.078431375, a: 0}
+    - Color_D7216F44: {r: 0.1177465, g: 0.4668292, b: 0.9245283, a: 0}
