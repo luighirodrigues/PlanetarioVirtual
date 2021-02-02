@@ -6,7 +6,7 @@ public class Navegador : MonoBehaviour
     public Material material;
     public Renderer mesh;
     public TextMesh nome;
-
+    public Audio audio;
     void Update()
     {
         if(Input.GetButtonDown("Fire1"))
@@ -20,6 +20,7 @@ public class Navegador : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(origem.transform.position, origem.transform.forward, out hit))
         {
+            
             material = hit.transform.GetComponent<MeshRenderer>().material;
             if (hit.transform.name.Equals("Display"))
             {
@@ -30,6 +31,7 @@ public class Navegador : MonoBehaviour
                 Debug.Log(material.name);
                 nome.text = hit.transform.name;
                 mesh.sharedMaterial = material;
+                FindObjectOfType<AudioManager>().Play(hit.transform.name);
             }
         }
     }
